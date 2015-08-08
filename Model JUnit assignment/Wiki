@@ -1,0 +1,6 @@
+str=$RANDOM
+cd documents/fossil-1.32/
+./fossil init $str   
+./fossil ui $str
+echo $str
+
